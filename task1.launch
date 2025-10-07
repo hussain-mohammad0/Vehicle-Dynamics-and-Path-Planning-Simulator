@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find cse4568_pa1)/params/task1_params.yaml" />
+    <node name="pa1_task1_node" pkg="cse4568_pa1" type="task1.py" output="screen" />
+</launch>
