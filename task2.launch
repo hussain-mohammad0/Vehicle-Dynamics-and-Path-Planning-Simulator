@@ -1,4 +1,0 @@
-<launch>
-    <param name="goal_states" type="yaml" value="[[5, 5], [20, 0], [0, -10], [-20, 0], [0, 0]]" />
-    <node name="pa1_task2_node" pkg="cse4568_pa1" type="task2.py" output="screen" />
-</launch>
